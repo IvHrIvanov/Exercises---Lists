@@ -20,26 +20,23 @@ namespace _06._Cards_Game
             int i = 0;
             while (firstDeck.Count != 0 && secondDeck.Count != 0)
             {
-                if (firstDeck[0] == secondDeck[0])
-                {
-                    firstDeck.RemoveAt(i);
-                    secondDeck.RemoveAt(i);
-                }
-                else if (firstDeck[i] > secondDeck[i])
+               
+               if (firstDeck[i] > secondDeck[i])
                 {
                     firstDeck.Insert(firstDeck.Count, firstDeck[0]);
                     firstDeck.Insert(firstDeck.Count, secondDeck[0]);
-                    secondDeck.RemoveAt(i);
-                    firstDeck.RemoveAt(i);
+                   
                 }
                 else if (secondDeck[i]>firstDeck[i])
                 {
                     secondDeck.Insert(secondDeck.Count, secondDeck[0]);
                     secondDeck.Insert(secondDeck.Count, firstDeck[0]);
-                    firstDeck.RemoveAt(i);
-                    secondDeck.RemoveAt(i);
+                  
                 }
-                
+
+                secondDeck.RemoveAt(i);
+                firstDeck.RemoveAt(i);
+
             }
             if(firstDeck.Count-1>secondDeck.Count-1)
             {

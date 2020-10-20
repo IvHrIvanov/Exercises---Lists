@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.Bomb Numbers", "05.Bomb 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Cards Game", "06. Cards Game\06. Cards Game.csproj", "{BDF650CA-2992-4D81-9E64-34044DB7C520}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Append Arrays", "07. Append Arrays\07. Append Arrays.csproj", "{DE913CCB-288F-4A29-ADB2-4F27051DD31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Anonymous Threat", "08. Anonymous Threat\08. Anonymous Threat.csproj", "{0B9A3E11-1E3F-4AD5-A66F-4CFA022D0AAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{BDF650CA-2992-4D81-9E64-34044DB7C520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDF650CA-2992-4D81-9E64-34044DB7C520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDF650CA-2992-4D81-9E64-34044DB7C520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE913CCB-288F-4A29-ADB2-4F27051DD31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE913CCB-288F-4A29-ADB2-4F27051DD31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE913CCB-288F-4A29-ADB2-4F27051DD31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE913CCB-288F-4A29-ADB2-4F27051DD31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9A3E11-1E3F-4AD5-A66F-4CFA022D0AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9A3E11-1E3F-4AD5-A66F-4CFA022D0AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9A3E11-1E3F-4AD5-A66F-4CFA022D0AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9A3E11-1E3F-4AD5-A66F-4CFA022D0AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
